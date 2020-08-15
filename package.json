@@ -1,0 +1,19 @@
+{
+  "name": "rocketseat-starter-nodejs",
+  "version": "1.0.0",
+  "description": "aqui estão os resultados dos estudos sobre o NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wtheodoro/Rocketseat-STARTER-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wtheodoro/Rocketseat-STARTER-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Wtheodoro/Rocketseat-STARTER-NodeJS#readme"
+}
