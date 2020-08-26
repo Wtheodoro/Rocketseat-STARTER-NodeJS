@@ -7,7 +7,7 @@ const app = express()
 // Initializing DB
 mongoose.connect(
     'mongodb://localhost:27017/nodeapi',
-    { useNewUrlParser: true }
+    { useNewUrlParser: true },
     )
 
 // First rout
