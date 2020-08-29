@@ -12,16 +12,7 @@ mongoose.connect(
 )
 requireDir('./src/models')
 
-const product = mongoose.model('Product')
-
-// First rout
-app.get("/", (req, res) => {
-    product.create({
-        title: 'React Native',
-        description: 'Build native apps with react',
-        url: 'http://github.com/facebook/react-native'
-    })
-    res.send("Hello World!!!!!")
-})
+// First route
+app.use('/api', require('./src/routes'))
 
 app.listen(3002)
